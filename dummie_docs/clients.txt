@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "João Silva",
+    "adress": "123 Collins Street, Melbourne, VIC",
+    "email": "joao.silva@example.com",
+    "phoneNumber": "+61 3 9123 4567"
+  },
+  {
+    "id": 2,
+    "name": "Maria Oliveira",
+    "adress": "456 Bourke Street, Melbourne, VIC",
+    "email": "maria.oliveira@example.com",
+    "phoneNumber": "+61 3 9234 5678"
+  },
+  {
+    "id": 3,
+    "name": "Carlos Pereira",
+    "adress": "789 Swanston Street, Melbourne, VIC",
+    "email": "carlos.pereira@example.com",
+    "phoneNumber": "+61 3 9345 6789"
+  },
+  {
+    "id": 4,
+    "name": "Ana Souza",
+    "adress": "101 Flinders Street, Melbourne, VIC",
+    "email": "ana.souza@example.com",
+    "phoneNumber": "+61 3 9456 7890"
+  },
+  {
+    "id": 5,
+    "name": "Paulo Santos",
+    "adress": "202 Lonsdale Street, Melbourne, VIC",
+    "email": "paulo.santos@example.com",
+    "phoneNumber": "+61 3 9567 8901"
+  },
+  {
+    "id": 6,
+    "name": "Fernanda Costa",
+    "adress": "303 Elizabeth Street, Melbourne, VIC",
+    "email": "fernanda.costa@example.com",
+    "phoneNumber": "+61 3 9678 9012"
+  },
+  {
+    "id": 7,
+    "name": "Ricardo Lima",
+    "adress": "404 Queen Street, Melbourne, VIC",
+    "email": "ricardo.lima@example.com",
+    "phoneNumber": "+61 3 9789 0123"
+  },
+  {
+    "id": 8,
+    "name": "Juliana Mendes",
+    "adress": "505 Exhibition Street, Melbourne, VIC",
+    "email": "juliana.mendes@example.com",
+    "phoneNumber": "+61 3 9890 1234"
+  },
+  {
+    "id": 9,
+    "name": "Gabriel Almeida",
+    "adress": "606 Spencer Street, Melbourne, VIC",
+    "email": "gabriel.almeida@example.com",
+    "phoneNumber": "+61 3 9001 2345"
+  },
+  {
+    "id": 10,
+    "name": "Patrícia Rodrigues",
+    "adress": "707 King Street, Melbourne, VIC",
+    "email": "patricia.rodrigues@example.com",
+    "phoneNumber": "+61 3 9112 3456"
+  },
+  {
+    "id": 11,
+    "name": "Rafael Souza",
+    "adress": "808 Victoria Street, Melbourne, VIC",
+    "email": "rafael.souza@example.com",
+    "phoneNumber": "+61 3 9223 4567"
+  },
+  {
+    "id": 12,
+    "name": "Bianca Martins",
+    "adress": "909 St Kilda Road, Melbourne, VIC",
+    "email": "bianca.martins@example.com",
+    "phoneNumber": "+61 3 9334 5678"
+  },
+  {
+    "id": 13,
+    "name": "Eduardo Lima",
+    "adress": "1010 Chapel Street, Melbourne, VIC",
+    "email": "eduardo.lima@example.com",
+    "phoneNumber": "+61 3 9445 6789"
+  },
+  {
+    "id": 14,
+    "name": "Camila Ferreira",
+    "adress": "1111 Lygon Street, Melbourne, VIC",
+    "email": "camila.ferreira@example.com",
+    "phoneNumber": "+61 3 9556 7890"
+  },
+  {
+    "id": 15,
+    "name": "Gustavo Ramos",
+    "adress": "1212 Sydney Road, Melbourne, VIC",
+    "email": "gustavo.ramos@example.com",
+    "phoneNumber": "+61 3 9667 8901"
+  }
+]

@@ -1,0 +1,35 @@
+#1 - on the package.json the script "dev": "nodemon server.js" helps me to run the "nodemon server.js" just running "npm run dev";
+
+#2 -  "src" means "source" it means the principal folder of the project!
+
+#3 - res.status(code)
+Sets the HTTP status for the response. It is a chainable alias of Node’s response.statusCode.
+
+res.status(403).end()
+res.status(400).send('Bad Request')
+res.status(404).sendFile('/absolute/path/to/404.png')
+
+#4- app.use(express.json()); So, here we have a function executing another function. This is called middleware.
+In the case of Express, these middlewares are used to access requests and responses as they are being made, and to 
+perform certain actions on them, such as modifying the object, passing extra information, etc. We can chain these mini 
+programs, these middlewares, to make changes to requests and responses as needed. In my case, I am using one called express.json, 
+which is used to execute this express.json in all requests handled by Express. In other words, any request whose 
+body is a JSON-compatible object, such as an object with an id and title or an array of objects, will pass through 
+this middleware and be converted and parsed (or 'parsed') to JSON. But why do we need to do this conversion? Aren't we 
+already working with objects? Yes, we are. However, every time we receive data via the body of a request, it arrives 
+converted as a string. Although it is in JSON format, an object format, with key-value pairs, it travels over the 
+HTTP connection in string format. To be able to use the data as JSON, that is, access its properties, we need to 
+convert this string back to JSON.
+
+#5 - res.status(201) = 201 means register created
+
+#6 - string of connection of the database import mongoose from "mongoose"; 
+mongoose.connect("mongodb+srv://<clusterUser>:<PASSWORD>@cluster0.x46bh.mongodb.net/<databaseName>")
+
+#7 - async (req,res)=> {const listClients = await client.find({}); - this is a mongoose method to connect with the database
+
+#8 - if the db (atlas) dont connect, check the IP - MongooseServerSelectionError: Could not connect to any servers in your 
+MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. 
+Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+
+#9 - for the archive .env works needs to do "npm install dotenv"
